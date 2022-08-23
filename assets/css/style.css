@@ -1,16 +1,21 @@
+:root{
+  --primaryColor: #96D953;
+  --secondaryColor: #4c4c4c;
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
 
 a {
-  color: #ffc451;
+  color: var(--primaryColor);
   text-decoration: none;
 }
 
 a:hover {
-  color: #ffd584;
+  color: var(--primaryColor);
   text-decoration: none;
+  transform: scale(1.2);
 }
 
 h1,
@@ -32,7 +37,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ffc451;
+  background: var(--primaryColor);
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -50,7 +55,7 @@ h6 {
 }
 
 .back-to-top:hover i {
-  color: #ffc451;
+  color: var(--primaryColor);
 }
 
 .back-to-top.active {
@@ -77,7 +82,7 @@ h6 {
   position: fixed;
   top: calc(50% - 0px);
   left: calc(50% - 30px);
-  border: 6px solid #ffc451;
+  border: 6px solid var(--primaryColor);
   border-top-color: #151515;
   border-bottom-color: #151515;
   border-radius: 50%;
@@ -145,7 +150,7 @@ h6 {
 }
 
 #header .logo a span {
-  color: #ffc451;
+  color: var(--primaryColor);
 }
 
 #header .logo img {
@@ -163,11 +168,11 @@ h6 {
   transition: 0.3s;
   font-size: 14px;
   display: inline-block;
-  border: 2px solid #ffc451;
+  border: 2px solid var(--primaryColor);
 }
 
 .get-started-btn:hover {
-  background: #ffbb38;
+  background: var(--primaryColor);
   color: #343a40;
 }
 
@@ -224,7 +229,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #ffc451;
+  color: var(--primaryColor);
 }
 
 .navbar .dropdown ul {
@@ -261,7 +266,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  background-color: #ffc451;
+  background-color: var(--primaryColor);
 }
 
 .navbar .dropdown:hover>ul {
@@ -357,7 +362,7 @@ h6 {
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
   color: #151515;
-  background-color: #ffc451;
+  background-color: var(--primaryColor);
 }
 
 .navbar-mobile .getstarted,
@@ -393,7 +398,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  background-color: #ffc451;
+  background-color: var(--primaryColor);
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -437,7 +442,7 @@ h6 {
 }
 
 #hero h1 span {
-  color: #ffc451;
+  color: var(--primaryColor);
 }
 
 #hero h2 {
@@ -457,7 +462,7 @@ h6 {
 #hero .icon-box i {
   font-size: 32px;
   line-height: 1;
-  color: #ffc451;
+  color: var(--primaryColor);
 }
 
 #hero .icon-box h3 {
@@ -475,11 +480,11 @@ h6 {
 }
 
 #hero .icon-box h3 a:hover {
-  color: #ffc451;
+  color: var(--primaryColor);
 }
 
 #hero .icon-box:hover {
-  border-color: #ffc451;
+  border-color: var(--primaryColor);
 }
 
 @media (min-width: 1024px) {
@@ -533,7 +538,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #ffde9e;
+  background: var(--primaryColor);
   margin: 4px 10px;
 }
 
@@ -571,7 +576,7 @@ section {
   font-size: 20px;
   left: 0;
   top: -3px;
-  color: #ffc451;
+  color: var(--primaryColor);
 }
 
 .about .content p:last-child {
@@ -610,7 +615,7 @@ section {
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffc451;
+  background-color: var(--primaryColor);
 }
 
 /*--------------------------------------------------------------
@@ -632,8 +637,7 @@ section {
 
 .features .icon-box i {
   font-size: 48px;
-  float: left;
-  color: #ffc451;
+  float: left var(--primaryColor);
 }
 
 .features .icon-box p {
@@ -664,7 +668,7 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #ffc451;
+  background: var(--primaryColor);
   border-radius: 4px;
   display: flex;
   align-items: center;
