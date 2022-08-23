@@ -7,6 +7,7 @@
 # Company Members
 - **CEO, MOBILE TEAM**, Ronald Kelechi
 - **WEB TEAM**, Joshua Umahi
+- **GRAPHICS TEAM**, Williams ChukwuEbuka
 - **GRAPHICS TEAM**, Seyi Aletan
 - **UI DESIGN TEAM**, William Anderson
 - **ANIMATION TEAM**, Kamsi Kelechi
