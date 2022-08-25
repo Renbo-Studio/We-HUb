@@ -434,6 +434,7 @@ h6 {
 
 #hero h1 {
   margin: 0;
+  max-lines: 2;
   font-size: 56px;
   font-weight: 700;
   line-height: 64px;
@@ -553,11 +554,11 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About
+# About Section
 --------------------------------------------------------------*/
 .about .content h3 {
   font-weight: 700;
-  font-size: 28px;
+  font-size: 32px;
   font-family: "Poppins", sans-serif;
 }
 
@@ -573,7 +574,7 @@ section {
 
 .about .content ul i {
   position: absolute;
-  font-size: 20px;
+  font-size: 22px;
   left: 0;
   top: -3px;
   color: var(--primaryColor);
