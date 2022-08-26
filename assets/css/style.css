@@ -1225,7 +1225,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  background: #ffc451;
+  background: var(--primaryColor);
   color: #151515;
   float: left;
   width: 44px;
@@ -1318,7 +1318,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #ffc451;
+  border-color: var(--primaryColor);
 }
 
 .contact .php-email-form input {
@@ -1330,7 +1330,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #ffc451;
+  background: var(--primaryColor);
   border: 0;
   padding: 10px 24px;
   color: #151515;
@@ -1339,7 +1339,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #ffcd6b;
+  background: var(--primaryColor);
 }
 
 @-webkit-keyframes animate-loading {
@@ -1444,7 +1444,7 @@ section {
 }
 
 #footer .footer-top .footer-info h3 span {
-  color: #ffc451;
+  color: var(--primaryColor);
 }
 
 #footer .footer-top .footer-info p {
@@ -1471,7 +1471,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #ffc451;
+  background: var(--primaryColor);
   color: #151515;
   text-decoration: none;
 }
@@ -1496,7 +1496,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #ffc451;
+  color: var(--primaryColor);
   font-size: 18px;
   line-height: 1;
 }
@@ -1519,7 +1519,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #ffc451;
+  color: var(--primaryColor);
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1545,14 +1545,14 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #ffc451;
+  background: var(--primaryColor);
   color: #151515;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #ffcd6b;
+  background: var(--primaryColor);
 }
 
 #footer .copyright {
