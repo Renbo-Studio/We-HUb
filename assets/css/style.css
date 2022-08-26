@@ -696,7 +696,7 @@ section {
 }
 
 .services .icon-box h4 a:hover {
-  color: #ffc451;
+  color: var(--primaryColor);
 }
 
 .services .icon-box p {
@@ -712,7 +712,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Cta
+# JOIN US
 --------------------------------------------------------------*/
 .cta {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
@@ -745,8 +745,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #ffc451;
-  border-color: #ffc451;
+  background: var(--primaryColor);
+  border-color: var(--primaryColor);
   color: #151515;
 }
 
@@ -781,7 +781,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #151515;
-  background: #ffc451;
+  background: var(--primaryColor);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -858,7 +858,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #ffc451;
+  color: var(--primaryColor);
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -963,7 +963,7 @@ section {
 .counts .content .count-box i {
   display: block;
   font-size: 36px;
-  color: #ffc451;
+  color: var(--primaryColor);
   float: left;
 }
 
@@ -1113,7 +1113,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffc451;
+  background-color: var(--primaryColor);
   opacity: 1;
 }
 
@@ -1177,7 +1177,7 @@ section {
 
 .team .member .social a:hover {
   color: #151515;
-  background: #ffc451;
+  background: var(--primaryColor);
 }
 
 .team .member .social i {
