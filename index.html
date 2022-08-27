@@ -636,7 +636,8 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <!-- FORM SECTION -->
+            <form class="php-email-form" action="#contact" method="#">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required value>
@@ -649,14 +650,14 @@
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required value>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" id="message"></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
-                <div class="error-message"></div>
+                <div class="error-message">Message not sent</div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button id="submitButton">Send Message</button></div>
             </form>
 
 
@@ -736,7 +737,7 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://WE-HUB.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://WE-HUB.com/WE-HUB-free-multipurpose-html-bootstrap-template/ -->
-        Designed by <a href="https://WE-HUB.com/">We-Hub Developers</a>
+        Designed by <a href="#">We-Hub Developers</a>
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -755,6 +756,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
   <!-- Custom Email Sender Provider -->
   <script src="assets/js/emailjs.js"></script>
 

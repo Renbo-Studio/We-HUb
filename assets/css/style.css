@@ -1329,7 +1329,7 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
+/* .contact .php-email-form button[type=submit] {
   background: var(--primaryColor);
   border: 0;
   padding: 10px 24px;
@@ -1340,6 +1340,20 @@ section {
 
 .contact .php-email-form button[type=submit]:hover {
   background: var(--primaryColor);
+} */
+
+.contact .php-email-form button{
+  background: var(--primaryColor);
+  border: 0;
+  padding: 10px 24px;
+  color: #151515;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.contact .php-email-form button:hover{
+  background: var(--primaryColor);
+  transform: scale(1.2);
 }
 
 @-webkit-keyframes animate-loading {
