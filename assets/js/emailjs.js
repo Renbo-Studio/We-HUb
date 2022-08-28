@@ -35,9 +35,8 @@ function ajaxPost(){
             // Show Success
             succes.style.display="flex";
             succes.style.justifyContent = "center";
+
            console.log('SUCCESS!', response.status, response.text);
-
-
         }, function(error) {
             //Hide Loading
             loading.style.display="none";
