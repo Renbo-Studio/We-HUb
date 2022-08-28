@@ -8,6 +8,15 @@
   <title>We-Hub</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
+  <!-- EMAIL JS CDN -->
+      <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+          emailjs.init("OJYeijTeomJyu2NsM");
+      })();
+    </script>
 
   <!-- Favicons -->
   <link href="assets/img/official images/Company Logo.jpg" rel="icon">
@@ -637,27 +646,27 @@
           <div class="col-lg-8 mt-5 mt-lg-0">
 
             <!-- FORM SECTION -->
-            <form class="php-email-form" action="#contact" method="#">
+            <form class="php-email-form" onsubmit="return ajaxPost();">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required value>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required value>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required value >
                 </div>
               </div>
               <div class="form-group mt-3">
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required value>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" id="message"></textarea>
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" id="message" value required></textarea>
               </div>
               <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message">Message not sent</div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="loading" id="loading">Loading</div>
+                <div class="error-message" id="errorMessage">Message not sent</div>
+                <div class="sent-message" id="successMessage">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button id="submitButton">Send Message</button></div>
+              <div class="text-center"><button id="submitButton" type="submit">Send Message</button></div>
             </form>
 
 
