@@ -29,5 +29,5 @@
 
 *Phone Number*: +2349066881954 <br>
 *Company Mail*: null <br>
-*Company Location*: Wuse 2, Abuja, Nigeria; <br>
+*Company Location*: No.215, Ademola Adetokunbo Cresent, Wuse 2, Abuja, Nigeria; <br>
 This is the *[Company Site](https://we-hub.vercel.app)*. <br>
