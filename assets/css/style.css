@@ -434,6 +434,7 @@ h6 {
 
 #hero h1 {
   margin: 0;
+  max-lines: 2;
   font-size: 56px;
   font-weight: 700;
   line-height: 64px;
@@ -553,11 +554,11 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About
+# About Section
 --------------------------------------------------------------*/
 .about .content h3 {
   font-weight: 700;
-  font-size: 28px;
+  font-size: 32px;
   font-family: "Poppins", sans-serif;
 }
 
@@ -573,7 +574,7 @@ section {
 
 .about .content ul i {
   position: absolute;
-  font-size: 20px;
+  font-size: 22px;
   left: 0;
   top: -3px;
   color: var(--primaryColor);
@@ -695,7 +696,7 @@ section {
 }
 
 .services .icon-box h4 a:hover {
-  color: #ffc451;
+  color: var(--primaryColor);
 }
 
 .services .icon-box p {
@@ -711,7 +712,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Cta
+# JOIN US
 --------------------------------------------------------------*/
 .cta {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
@@ -744,8 +745,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #ffc451;
-  border-color: #ffc451;
+  background: var(--primaryColor);
+  border-color: var(--primaryColor);
   color: #151515;
 }
 
@@ -780,7 +781,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #151515;
-  background: #ffc451;
+  background: var(--primaryColor);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -857,7 +858,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #ffc451;
+  color: var(--primaryColor);
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -962,7 +963,7 @@ section {
 .counts .content .count-box i {
   display: block;
   font-size: 36px;
-  color: #ffc451;
+  color: var(--primaryColor);
   float: left;
 }
 
@@ -1112,7 +1113,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffc451;
+  background-color: var(--primaryColor);
   opacity: 1;
 }
 
@@ -1176,7 +1177,7 @@ section {
 
 .team .member .social a:hover {
   color: #151515;
-  background: #ffc451;
+  background: var(--primaryColor);
 }
 
 .team .member .social i {
@@ -1224,7 +1225,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  background: #ffc451;
+  background: var(--primaryColor);
   color: #151515;
   float: left;
   width: 44px;
@@ -1317,7 +1318,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #ffc451;
+  border-color: var(--primaryColor);
 }
 
 .contact .php-email-form input {
@@ -1328,8 +1329,8 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
-  background: #ffc451;
+/* .contact .php-email-form button[type=submit] {
+  background: var(--primaryColor);
   border: 0;
   padding: 10px 24px;
   color: #151515;
@@ -1338,7 +1339,21 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #ffcd6b;
+  background: var(--primaryColor);
+} */
+
+.contact .php-email-form button{
+  background: var(--primaryColor);
+  border: 0;
+  padding: 10px 24px;
+  color: #151515;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.contact .php-email-form button:hover{
+  background: var(--primaryColor);
+  transform: scale(1.2);
 }
 
 @-webkit-keyframes animate-loading {
@@ -1443,7 +1458,7 @@ section {
 }
 
 #footer .footer-top .footer-info h3 span {
-  color: #ffc451;
+  color: var(--primaryColor);
 }
 
 #footer .footer-top .footer-info p {
@@ -1470,7 +1485,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #ffc451;
+  background: var(--primaryColor);
   color: #151515;
   text-decoration: none;
 }
@@ -1495,7 +1510,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #ffc451;
+  color: var(--primaryColor);
   font-size: 18px;
   line-height: 1;
 }
@@ -1518,7 +1533,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #ffc451;
+  color: var(--primaryColor);
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1544,14 +1559,14 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #ffc451;
+  background: var(--primaryColor);
   color: #151515;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #ffcd6b;
+  background: var(--primaryColor);
 }
 
 #footer .copyright {
