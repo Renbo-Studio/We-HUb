@@ -1,5 +1,5 @@
 # We-Hub
-### Is the company **original** site developed by Renbo Studios developer **Joshua Umahi**
+#### Company original site developed by Renbo Studios developer **Joshua Umahi**, **Ronald Kelechi**, **Opeoluwa Ogunjala**
 > The company is built to work as a freelancing Company rendering Software development services to Customer's while still
 > Being Productive in Personal Projects
 
