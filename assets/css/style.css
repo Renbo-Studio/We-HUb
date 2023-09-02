@@ -471,7 +471,7 @@ h6 {
   margin: 10px 0 0 0;
   padding: 0;
   line-height: 1;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 26px;
 }
 
@@ -1056,8 +1056,10 @@ section {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 100px;
   border-radius: 50%;
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
   border: 6px solid rgba(255, 255, 255, 0.15);
   margin: 0 auto;
 }
@@ -1579,4 +1581,41 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+.img-fluid
+{
+  object-fit: cover !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+::selection {
+  background: #96D953;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: black;
+  background-size: 900%;
+  background-position: center;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #96D953;
+  background-size: 900%;
+  background-position: center;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: transparent;
 }
