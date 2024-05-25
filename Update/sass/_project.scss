@@ -1,0 +1,74 @@
+/*---------------------
+  Project
+-----------------------*/
+.project__item {
+    margin-bottom: 50px;
+    text-align: center;
+
+    img {
+        min-width: 100%;
+        margin-bottom: 26px;
+    }
+
+    h4 {
+
+        a {
+            color: $heading-color;
+            text-transform: uppercase;
+        }
+    }
+}
+
+/*---------------------
+  Project Details
+-----------------------*/
+.project-details {
+    padding-top: 120px;
+    padding-bottom: 90px;
+
+    img {
+        margin-bottom: 30px;
+        min-width: 100%;
+    }
+}
+
+.project__sidebar__about {
+    margin-bottom: 35px;
+
+    h2 {
+        color: $heading-color;
+        line-height: 50px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    p {
+        margin-bottom: 26px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.product__details__widget__item {
+    margin-bottom: 30px;
+
+    span {
+        color: #707070;
+        font-size: 15px;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    h4 {
+        color: $heading-color;
+        text-transform: uppercase;
+    }
+
+    p {
+        color: $heading-color;
+        font-size: 24px;
+        line-height: 36px;
+    }
+}

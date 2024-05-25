@@ -1,0 +1,109 @@
+/*---------------------
+  Services
+-----------------------*/
+.services {
+  padding-top: 120px;
+  padding-bottom: 90px;
+
+  &.services-page {
+    padding-bottom: 80px;
+
+    .services__item {
+
+      p {
+        margin-bottom: 12px;
+      }
+
+      ul {
+
+        li {
+          color: $heading-color;
+          font-size: 15px;
+          line-height: 36px;
+          list-style: none;
+        }
+      }
+    }
+  }
+}
+
+.services__item {
+  margin-bottom: 30px;
+
+  h4 {
+    color: $heading-color;
+    text-transform: uppercase;
+    margin-top: 35px;
+    margin-bottom: 22px;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+/*---------------------
+  Counter
+-----------------------*/
+.counter {
+  padding-bottom: 70px;
+
+  .counter__content {
+    border: none;
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  .counter__item {
+
+    .counter__item__text {
+
+      h5 {
+        color: $white-color;
+      }
+    }
+  }
+}
+
+.counter__content {
+  border-top: 1px solid rgba(183, 183, 183, 0.2);
+  padding-top: 70px;
+  margin-top: 40px;
+}
+
+.counter__item {
+  margin-bottom: 30px;
+}
+
+.counter__item__number {
+  float: left;
+  margin-right: 28px;
+
+  h2 {
+    color: $primary-color;
+    font-size: 60px;
+    line-height: 52px;
+  }
+}
+
+.counter__item__text {
+  overflow: hidden;
+
+  h5 {
+    color: $heading-color;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+}
+
+/*---------------------
+  Clients
+-----------------------*/
+.clients {
+  padding-top: 120px;
+  padding-bottom: 60px;
+
+  img {
+    margin-bottom: 60px;
+  }
+}

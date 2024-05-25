@@ -1,0 +1,196 @@
+/*---------------------
+  Hero
+-----------------------*/
+.hero {
+    position: relative;
+}
+
+.hero__items {
+    height: 960px;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__text {
+    max-width: 820px;
+    text-align: center;
+
+    h2 {
+        color: $white-color;
+        font-size: 72px;
+        line-height: 80px;
+        text-transform: uppercase;
+        margin-bottom: 45px;
+        position: relative;
+        top: 100px;
+        opacity: 0;
+        @include transition(all, .3s);
+    }
+
+    .primary-btn {
+        position: relative;
+        top: 100px;
+        opacity: 0;
+        @include transition(all, .6s);
+    }
+
+    .more_btn {
+        font-size: 14px;
+        color: #b7b7b7;
+        position: absolute;
+        left: 50%;
+        margin-left: -50px;
+        bottom: 55px;
+    }
+
+    .hero__social {
+        position: absolute;
+        right: 145px;
+        bottom: 55px;
+
+        a {
+            display: inline-block;
+            font-size: 18px;
+            color: $white-color;
+            margin-right: 36px;
+            @include transition(all, .3s);
+
+            &:hover {
+                color: $primary-color;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+.hero__slider {
+
+    &.owl-carousel {
+
+        .owl-item {
+
+            &.active {
+
+                .hero__text {
+
+                    h2 {
+                        top: 0;
+                        opacity: 1;
+                    }
+
+                    .primary-btn {
+                        top: 0;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+        .owl-dots {
+            display: none;
+        }
+
+        .owl-nav {
+
+            button {
+                font-size: 28px;
+                color: $white-color;
+                position: absolute;
+                left: 145px;
+                top: 50%;
+                display: inline-block;
+                height: 50px;
+                width: 50px;
+                margin-top: -25px;
+
+                &.owl-next {
+                    left: auto;
+                    right: 145px;
+                }
+
+                &:before {
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    height: 20px;
+                    width: 20px;
+                    border-left: 2px solid rgba(255, 255, 255, 0.2);
+                    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+                    content: "";
+                    border-radius: 0 0 0 4px;
+                    @include transition(all, .5s);
+                }
+
+                &:after {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    height: 20px;
+                    width: 20px;
+                    border-right: 2px solid rgba(255, 255, 255, 0.2);
+                    border-top: 2px solid rgba(255, 255, 255, 0.2);
+                    content: "";
+                    border-radius: 0 4px 0 0;
+                    @include transition(all, .5s);
+                }
+
+                &:hover {
+
+                    &:before {
+                        height: 100%;
+                        width: 100%;
+                        border-radius: 4px;
+                    }
+
+                    &:after {
+                        height: 100%;
+                        width: 100%;
+                        border-radius: 4px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.slide-num {
+    position: absolute;
+    left: 145px;
+    bottom: 55px;
+    z-index: 9;
+
+    span {
+        font-size: 16px;
+        color: $white-color;
+        font-weight: 600;
+        margin-right: 140px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.slider__progress {
+    width: 100px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    left: 180px;
+    bottom: 67px;
+    z-index: 9;
+
+    span {
+        background: $white-color;
+        height: 2px;
+        display: block;
+        @include transition(all, .4s);
+        position: relative;
+        top: -1px;
+    }
+}

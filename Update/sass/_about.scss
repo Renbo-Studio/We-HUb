@@ -1,0 +1,65 @@
+/*---------------------
+  About
+-----------------------*/
+.about {
+    padding-top: 120px;
+    padding-bottom: 165px;
+    overflow: hidden;
+}
+
+.about-page {
+    padding-top: 120px;
+    padding-bottom: 90px;
+}
+
+.about__text {
+    padding-top: 80px;
+
+    &.about__page__text {
+        padding-top: 0;
+
+        .section-title {
+            margin-bottom: 12px;
+        }
+    }
+
+    .section-title {
+        margin-bottom: 35px;
+    }
+}
+
+.about__para__text {
+    margin-bottom: 70px;
+
+    p {
+        margin-bottom: 26px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.about__pic {
+    padding-left: 34px;
+}
+
+.about__pic__inner {
+    position: relative;
+    display: inline-block;
+
+    &:after {
+        position: absolute;
+        left: 50px;
+        top: 50px;
+        height: 600px;
+        width: 470px;
+        border: 15px solid rgba(185, 175, 134, 0.2);
+        content: "";
+        z-index: -1;
+    }
+}
+
+.about__page__services__text {
+    margin-bottom: 30px;
+}
